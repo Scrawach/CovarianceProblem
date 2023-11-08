@@ -20,6 +20,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\CovarianceProblem.Problem\CovarianceProblem.Problem.csproj" />
+      <ProjectReference Include="..\CovarianceProblem.Solves\CovarianceProblem.Solves.csproj" />
     </ItemGroup>
 
 </Project>

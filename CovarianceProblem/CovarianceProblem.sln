@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceProblem.Problem", "CovarianceProblem.Problem\CovarianceProblem.Problem.csproj", "{A14B9583-DF13-4132-9C5B-5F5DB0762F58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceProblem.Tests", "CovarianceProblem.Tests\CovarianceProblem.Tests.csproj", "{65F212D9-5160-4153-BBC6-8019D3319689}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A14B9583-DF13-4132-9C5B-5F5DB0762F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A14B9583-DF13-4132-9C5B-5F5DB0762F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A14B9583-DF13-4132-9C5B-5F5DB0762F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F212D9-5160-4153-BBC6-8019D3319689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F212D9-5160-4153-BBC6-8019D3319689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F212D9-5160-4153-BBC6-8019D3319689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F212D9-5160-4153-BBC6-8019D3319689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

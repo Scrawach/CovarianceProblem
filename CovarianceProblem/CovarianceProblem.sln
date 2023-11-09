@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceProblem.Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceProblem.Solves", "CovarianceProblem.Solves\CovarianceProblem.Solves.csproj", "{5940F869-4D21-4CD6-ABFD-AF1E7E131DF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceProblem.Benchmarks", "CovarianceProblem.Benchmarks\CovarianceProblem.Benchmarks.csproj", "{531905BD-B0C3-43B8-AE30-5DE7AF62EC8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{5940F869-4D21-4CD6-ABFD-AF1E7E131DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5940F869-4D21-4CD6-ABFD-AF1E7E131DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5940F869-4D21-4CD6-ABFD-AF1E7E131DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531905BD-B0C3-43B8-AE30-5DE7AF62EC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531905BD-B0C3-43B8-AE30-5DE7AF62EC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531905BD-B0C3-43B8-AE30-5DE7AF62EC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531905BD-B0C3-43B8-AE30-5DE7AF62EC8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -5,6 +5,7 @@ using CovarianceProblem.Solves.AnotherProcessors.Factory;
 
 namespace CovarianceProblem.Benchmarks.Solves;
 
+[MemoryDiagnoser]
 public class AnotherProcessorBenchmark
 {
     [Params(1, 10, 100)]

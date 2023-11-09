@@ -5,6 +5,7 @@ using CovarianceProblem.Solves.Dynamic;
 
 namespace CovarianceProblem.Benchmarks.Solves;
 
+[MemoryDiagnoser]
 public class DynamicBenchmark
 {
     [Params(1, 10, 100)]

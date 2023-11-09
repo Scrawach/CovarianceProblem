@@ -5,6 +5,7 @@ using CovarianceProblem.Solves.Matching;
 
 namespace CovarianceProblem.Benchmarks.Solves;
 
+[MemoryDiagnoser]
 public class MatchingBenchmark
 {
     [Params(1, 10, 100)]

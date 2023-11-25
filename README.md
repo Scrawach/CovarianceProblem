@@ -30,6 +30,21 @@ A curious solution (and my personal favorite) where we modify just one file usin
 
 In summary, this solution only requires changing the factory (or any other handler provider) when adding new actors and handlers. The disadvantage of the solution is the use of `dynamic`, which other programmers on the team may not be familiar with. It is also certainly disconcerting that we lose the charms of a statically typed language the moment we cast to `dynamic`, but since this is the one and only place of the whole system - it may not be too terrible.
 
+## Benchmarks
+
+The benchmarks obviously showed that there is no critical superiority in execution time for any of the solutions. However, you can read the results directly [here](CovarianceProblem/CovarianceProblem.Benchmarks).
+
+|                     | Pattern Matching | Another Processor | Dynamic    |
+| ------------------- | ---------------- | ----------------- | ---------- |
+| Execution time, μs  | 102,853.83       | 103,667.45        | 102,196.03 |
+| Allocated memory, B | 724987           | 717122            | 705787     |
+
+Memory allocations are caused by using `params` to pass a list of actors as a parameter. The values presented are valid for tests of a list of 100 actors processed in a loop 100 times.
+
+## Conclusion
+
+The most interesting solution, in my opinion, is the use of dynamic language dispatch. It required the once change of source code and is easy to maintain. The unpleasant side is the use of magic casting to a dynamic type and moving the solution time to runtime. But any other alternatives do not seem to be available.
+
 ## Contributing
 
 If you have a good solution in mind, please let me know. Create pull request.
